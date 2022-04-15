@@ -3,12 +3,13 @@ import { ChartJSNodeCanvas } from "chartjs-node-canvas";
 import { writeFileSync } from "fs";
 import { join } from "path";
 
-type GenerateChartParams = {
+export type GenerateChartParams = {
   data: {
     labels: string[];
     datasets: {
-      borderColor: string[];
-      backgroundColor: string[];
+      label?: string;
+      borderColor: string[] | string;
+      backgroundColor: string[] | string;
       data: number[];
     }[];
   };

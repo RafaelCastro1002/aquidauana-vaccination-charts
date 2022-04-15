@@ -1,3 +1,6 @@
 import generateAppliedDosesChart from "./generateAppliedDosesChart";
+import generateSentDosesChart from "./generateSentDosesChart";
 
-generateAppliedDosesChart();
+// generateAppliedDosesChart();
+
+generateSentDosesChart();
