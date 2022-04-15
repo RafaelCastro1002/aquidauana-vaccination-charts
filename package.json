@@ -15,7 +15,6 @@
   "dependencies": {
     "chart.js": "^3.7.1",
     "chartjs-node-canvas": "^4.1.6",
-    "convert-excel-to-json": "^1.7.0",
-    "csv-parse": "^5.0.4"
+    "convert-excel-to-json": "^1.7.0"
   }
 }
