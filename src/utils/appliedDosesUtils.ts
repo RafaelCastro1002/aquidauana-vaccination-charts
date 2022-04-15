@@ -18,7 +18,7 @@ export const getChartData = (appliedDoses: AppliedDosesBySocialGroup) => {
     labels,
     datasets: [
       {
-        borderColor: backgroundColor,
+        borderColor: "#f1f1f1",
         backgroundColor,
         data,
       },
